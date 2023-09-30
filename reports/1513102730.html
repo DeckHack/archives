@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/css/app-dark.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/css/app-dark.<span><span style="color: red;">0caeacdace<span><span style="color: green;">18c578e508<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/css/app-light.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/css/app-light.<span><span style="color: red;">a980d22752<span><span style="color: green;">6d15a868c1<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">39f3ba6c97<span><span style="color: green;">61d517f6be<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">849b3f5a90<span><span style="color: green;">1664c929fa<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">3e71255fb3<span><span style="color: green;">8db4592001<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">c2acbf04c7eec8847ce5dc04983cb66b40c9ba13<span><span style="color: green;">5407ff197a9af195ae03445934e41c064c633fbc<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.compose/compose_inline_reply.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-inline-reply inline-reply item-box-full-bleed is-inline-inactive is-inline-active position-rel<span><span style="color: green;">&quot;&gt;<span><span style="color: black;"> <span><span style="color: red;">{{#isInThread}}margin-l--58{{/isInThread}}&quot;&gt; <span><span style="color: black;">&lt;div class&#x3D;&quot;padding-t--10 padding-lxl padding-rxl padding-bs&quot;&gt; &lt;div class&#x3D;&quot;position-rel compose-text-container margin-v--6 br--4&quot;&gt; &lt;div class&#x3D;&quot;js-reply-info-container txt-size-variable--12 is-hidden padding-h--10 padding-t--10&quot; /&gt; &lt;textarea class&#x3D;&quot;js-compose-text compose-text txt-size-variable--14 scroll-v scroll-styled-v scroll-styled-h scroll-alt&quot; placeholder&#x3D;&quot;{{_i}}Tweet your reply{{/i}}&quot; tabindex&#x3D;&quot;100&quot;&gt;&lt;/textarea&gt; {{&gt; compose/character_count_with_circle}} &lt;/div&gt;  &lt;!-- safeguard checkbox --&gt; &lt;div class&#x3D;&quot;js-account-safeguard-checkbox cf&quot;&gt; &lt;label for&#x3D;&quot;inline-account-safeguard-checkbox&quot; class&#x3D;&quot;pull-right txt-size-variable--12&quot;&gt;Ready to Tweet? &lt;input id&#x3D;&quot;inline-account-safeguard-checkbox&quot; class&#x3D;&quot;on-blue&quot; type&#x3D;&quot;checkbox&quot; tabindex&#x3D;&quot;100&quot; /&gt;&lt;/label&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;cf margin-t--4 full-width&quot;&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;a class&#x3D;&quot;js-account-item js-show-tip compose-account is-actionable is-selected margin-an margin-rl&quot; tabindex&#x3D;&quot;101&quot; data-account-key&#x3D;&quot;{{account.accountKey}}&quot; title&#x3D;&quot;@{{account.screenName}}&quot;&gt; &lt;img src&#x3D;&quot;{{account.profileImageURL}}&quot; alt&#x3D;&quot;&quot; width&#x3D;&quot;30&quot; height&#x3D;&quot;30&quot; class&#x3D;&quot;avatar compose-account-img size30&quot; /&gt; &lt;/a&gt; &lt;div class&#x3D;&quot;js-send-button-container spinner-button-container&quot;&gt; &lt;button class&#x3D;&quot;js-send-button js-spinner-button js-show-tip btn btn-positive&quot; tabindex&#x3D;&quot;100&quot;&gt; {{_i}}Tweet{{/i}} &lt;/button&gt; &lt;i class&#x3D;&quot;js-compose-sending-success icon-center-16 compose-send-button-success icon icon-check is-hidden&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon-center-16 spinner-button-icon-spinner is-hidden&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;pull-left neg-margin-lm&quot;&gt; &lt;button class&#x3D;&quot;js-inline-compose-close btn btn-square btn-neutral&quot; tabindex&#x3D;&quot;103&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-medium&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;js-inline-compose-pop js-show-tip btn btn-square btn-neutral&quot; tabindex&#x3D;&quot;102&quot; title&#x3D;&quot;{{_i}}Popout{{/i}}&quot;&gt; &lt;i class&#x3D;&quot;icon icon-popout icon-medium&quot;&gt;&lt;/i&gt; &lt;/button&gt;  {{! Needs revisiting. Camera button does not fit in narrow columns }} &lt;button class&#x3D;&quot;js-inline-compose-add-image btn btn-square btn-neutral is-hidden&quot;&gt; &lt;i class&#x3D;&quot;icon icon-camera icon-medium&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.insights/entry_point.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;with-column-divider-bottom padding-h--8 padding-v--6 is-actionable&quot;&gt; &lt;div class&#x3D;&quot;js-entry-point-sparkline height--30&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;padding-t--6 flex flex-align--center txt-twitter-dark-gray txt-size-variable--12&quot;&gt; &lt;span class&#x3D;&quot;margin-t--4&quot;&gt;{{<span><span style="color: red;">volume}}{{<span><span style="color: green;">humanReadableVolume}} {{<span><span style="color: black;">_i}}<span><span style="color: red;"> Tweets <span><span style="color: black;">today{{/i}}&lt;/span&gt; {{#positiveTrend}} {{&gt; insights/trends/positive_trend}} {{/positiveTrend}} {{#negativeTrend}} {{&gt; insights/trends/negative_trend}} {{/negativeTrend}} {{#neutralTrend}} {{&gt; insights/trends/neutral_trend}} {{/neutralTrend}} &lt;span class&#x3D;&quot;js-insights-entry-cta flex-auto flex-justify-content--flex-end flex flex-align--center txt-twitter-emphasis-gray txt-size-variable--14&quot;&gt; &lt;span class&#x3D;&quot;js-insights-entry-cta&quot;&gt;{{_i}}Insights{{/i}}&lt;/span&gt; &lt;span class&#x3D;&quot;js-insights-entry-cta icon icon-small icon-arrow-r&quot;&gt;&lt;/span&gt; &lt;/span&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.insights/trends/neutral_trend.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;span class&#x3D;&quot;margin-l--8<span><span style="color: green;"> margin-t--4<span><span style="color: black;">&quot;&gt;0%&lt;/span&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.status/quoted_tweet.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">{{#tweet}} &lt;div class&#x3D;&quot;js-quote-detail quoted-tweet nbfc br--4 padding-al margin-b--8 position-rel {{^inCompose}}margin-tm is-actionable {{/inCompose}}&quot; data-tweet-id&#x3D;&quot;{{id}}&quot; data-key&#x3D;&quot;{{key}}{{id}}&quot; data-account-key&#x3D;&quot;{{#account}}{{getKey}}{{/account}}&quot; rel&#x3D;&quot;viewDetails&quot;&gt; &lt;div&gt; &lt;header class&#x3D;&quot;tweet-header&quot;&gt; {{#user}} {{&gt;status/tweet_single_header}} {{/user}} &lt;/header&gt; &lt;div class&#x3D;&quot;js-reply-info-container&quot;&gt; &lt;div class&#x3D;&quot;nbfc txt-ellipsis txt-mute&quot;&gt; {{{ getReplyContext }}} &lt;/div&gt; &lt;/div&gt; &lt;p class&#x3D;&quot;js-quoted-tweet-text with-linebreaks&quot;&gt;{{{htmlText}}}&lt;/p&gt; {{&gt;status/tweet_media_wrapper}} {{#isQuoteStatus}} {{&gt;status/attachment_tweet}} {{/isQuoteStatus}} {{#isInThread}} &lt;p class&#x3D;&quot;margin-t--4<span><span style="color: green;"> txt-mute<span><span style="color: black;">&quot;&gt;{{_i}}Show this thread{{/i}}&lt;/p&gt; {{/isInThread}} &lt;/div&gt; {{#inCompose}} &lt;a class&#x3D;&quot;js-quote-tweet-remove compose-media-grid-remove is-actionable&quot;&gt; {{&gt;compose/close_button}} &lt;/a&gt; {{/inCompose}} &lt;/div&gt; {{/tweet}}<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.status/tweet_detail.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">{{&lt;stream_item}}  {{$stream_item_data}} {{#chirp}} data-key&#x3D;&quot;{{key}}{{id}}&quot; data-account-key&#x3D;&quot;{{#account}}{{getKey}}{{/account}}&quot; data-tweet-id&#x3D;&quot;{{#getMainTweet}}{{id}}{{/getMainTweet}}&quot; {{/chirp}} {{/stream_item_data}}  {{$content}}  {{#chirp}} &lt;div class&#x3D;&quot;js-tweet tweet-detail {{#isFavorite}}is-favorite{{/isFavorite}} {{#isRetweeted}}is-retweet{{/isRetweeted}} {{#quotedTweet}}is-quote-tweet{{/quotedTweet}} {{#isInThread}}{{#hasReplies}}js-has-replies <span><span style="color: green;">{{^lastInSelfThread}}<span><span style="color: black;">margin-l--58{{/<span><span style="color: green;">lastInSelfThread}}{{/<span><span style="color: black;">hasReplies}}{{/isInThread}}&quot;&gt;  &lt;div class&#x3D;&quot;margin-b--10 {{#isInThread}}{{#hasReplies<span><span style="color: green;">}}{{^lastInSelfThread<span><span style="color: black;">}}margin-l---58{{/<span><span style="color: green;">lastInSelfThread}}{{/<span><span style="color: black;">hasReplies}}{{/isInThread}}&quot;&gt; {{#getMainUser}} {{&gt; account_summary }} {{/getMainUser}} &lt;/div&gt;  {{^isInThread}} &lt;div class&#x3D;&quot;txt-size-variable--12 margin-b--2&quot;&gt; {{{getReplyContext}}} &lt;/div&gt; {{/isInThread}}  {{#isInThread}} {{#hasReplies}} <span><span style="color: green;">{{^lastInSelfThread}} <span><span style="color: black;">&lt;div class&#x3D;&quot;thread margin-t---6&quot;&gt;&lt;/div&gt; {{/<span><span style="color: green;">lastInSelfThread}} {{/<span><span style="color: black;">hasReplies}} {{/isInThread}}  &lt;p class&#x3D;&quot;js-tweet-text tweet-text txt-size-variable--18 margin-b--10 with-linebreaks {{#translation}}tweet-translation-original-text margin-bn{{/translation}}&quot; lang&#x3D;&quot;{{lang}}&quot;&gt;{{{htmlText}}}&lt;/p&gt;  {{#translation}}{{&gt;status/tweet_translation}}{{/translation}} {{#isTranslatable}}{{^translation}}&lt;a class&#x3D;&quot;js-translate-call-to-action txt-mute&quot; href&#x3D;&quot;#&quot; rel&#x3D;&quot;translateTweet&quot;&gt;{{_i}}Translate Tweet{{/i}}&lt;/a&gt;{{/translation}}{{/isTranslatable}}  &lt;div class&#x3D;&quot;js-poll&quot;&gt;&lt;/div&gt;  {{#getMainTweet}}  &lt;div class&#x3D;&quot;js-tweet-media tweet-detail-media margin-v--15 margin-h--0 is-hidden {{#user}}{{#isProtected}}is-protected{{/isProtected}}{{/user}}&quot;&gt;&lt;/div&gt;  {{^hasMedia}} {{#quotedTweet}} {{{ renderQuoted }}} {{/quotedTweet}} {{/hasMedia}}  {{#quotedTweetMissing}} {{! placeholder to be replaced when quoted tweet is fetched}} &lt;div class&#x3D;&quot;js-attachment-tweet&quot;&gt; {{&gt;status/attachment_tweet}} &lt;/div&gt; {{/quotedTweetMissing}}  &lt;div class&#x3D;&quot;js-card-container height--0&quot;&gt;&lt;/div&gt;  &lt;div class&#x3D;&quot;margin-tl txt-mute txt-size-variable--12&quot;&gt; &lt;a href&#x3D;&quot;{{getChirpURL}}&quot; rel&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot;&gt;{{createdPrettyFull}}&lt;/a&gt; &amp;middot; &lt;a href&#x3D;&quot;{{sourceUrl}}&quot; rel&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot;&gt;{{sourceNoHTML}}&lt;/a&gt; &lt;/div&gt;  {{#hasLocationData}} &lt;div class&#x3D;&quot;margin-bl txt-mute txt-size-variable--12 tweet-location&quot;&gt; &lt;a href&#x3D;&quot;{{getLocationURL}}&quot; rel&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;i class&#x3D;&quot;icon icon-base-valigned icon-geo&quot;&gt;&lt;/i&gt;{{getLocationFullName}}&lt;/a&gt; &lt;/div&gt; {{/hasLocationData}}  &lt;footer&gt; &lt;div class&#x3D;&quot;js-tweet-stats&quot;&gt;&lt;/div&gt;  {{&gt; status/tweet_detail_actions}} &lt;/footer&gt; {{/getMainTweet}} &lt;/div&gt; &lt;div class&#x3D;&quot;js-detail-view-inline detail-view-inline item-box-full-bleed padding-axl scroll-conversation {{#isInThread}}{{#hasReplies<span><span style="color: green;">}}{{^lastInSelfThread<span><span style="color: black;">}}margin-l--58{{/<span><span style="color: green;">lastInSelfThread}}{{/<span><span style="color: black;">hasReplies}}{{/isInThread}}&quot;&gt; &lt;div rel&#x3D;&quot;reply&quot; class&#x3D;&quot;js-detail-view-inline-text detail-view-inline-text padding-al inline-block full-width txt-ellipsis&quot;&gt;{{_i}}Reply to{{/i}} {{mentions}}&lt;/div&gt; &lt;/div&gt; {{#dataminr}} &lt;a class&#x3D;&quot;js-skip-to-replies is-hidden is-actionable link-complex block item-box-full-bleed padding-hxl padding-bl scroll-conversation&quot; rel&#x3D;&quot;skipToReplies&quot;&gt; &amp;#8595; &lt;span class&#x3D;&quot;link-complex-target align-middle&quot;&gt;{{_i}}Skip to replies{{/i}}&lt;/span&gt; &lt;/a&gt; {{/dataminr}} {{/chirp}} {{/content}}  {{/stream_item}}<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.status/tweet_single.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-tweet tweet {{#isFavorite}}is-favorite{{/isFavorite}} {{#isRetweeted}}is-retweet{{/isRetweeted}} {{#isInConvo}}is-conversation{{/isInConvo}} {{#isMinimalist}}is-minimalist{{/isMinimalist}} {{#quotedTweet}}is-quote-tweet{{/quotedTweet}} {{#quotedTweetMissing}}is-quote-tweet{{/quotedTweetMissing}} {{#withContentMute}}txt-mute{{/withContentMute}} {{#hasReplies}}js-has-replies{{/hasReplies}}&quot;&gt; {{#isRetweetedStatus}} &lt;div class&#x3D;&quot;tweet-context txt-size-variable--12 txt-mute padding-bs&quot;&gt; &lt;div class&#x3D;&quot;obj-left item-img&quot;&gt; &lt;i class&#x3D;&quot;pull-right icon icon-retweet-filled icon-small-context icon-retweet-color txt-size--16&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc&quot;&gt; {{#user}} &lt;a href&#x3D;&quot;{{getProfileURL}}&quot; rel&#x3D;&quot;user&quot; target&#x3D;&quot;_blank&quot;&gt;{{{emojifiedName}}}&lt;/a&gt;{{_i}} Retweeted{{/i}} {{/user}} &lt;/div&gt; &lt;/div&gt; {{/isRetweetedStatus}} &lt;header class&#x3D;&quot;tweet-header js-tweet-header flex flex-row flex-align--baseline&quot;&gt; {{#getMainUser}} {{&gt;status/tweet_single_header}} {{/getMainUser}} {{#getMainTweet}} {{&gt;status/tweet_timestamp}} {{/getMainTweet}} &lt;/header&gt; {{#isInConvo}} {{#hasReplies}} &lt;div class&#x3D;&quot;thread&quot;&gt;&lt;/div&gt; {{/hasReplies}} {{/isInConvo}}  &lt;div class&#x3D;&quot;tweet-body js-tweet-body&quot;&gt; {{^isInThread}} {{#getMainTweet}} &lt;div class&#x3D;&quot;nbfc txt-size-variable--12 txt-ellipsis&quot;&gt; {{{ getReplyContext }}} &lt;/div&gt; {{/getMainTweet}} {{/isInThread}}  &lt;p class&#x3D;&quot;js-tweet-text tweet-text {{#withLinebreaks}}with-linebreaks{{/withLinebreaks}} {{#translation}}tweet-translation-original-text margin-bn{{/translation}}&quot; lang&#x3D;&quot;{{lang}}&quot;&gt;{{{htmlText}}}&lt;/p&gt;  &lt;div class&#x3D;&quot;js-card-container height--0&quot;&gt;&lt;/div&gt;  {{^hasMedia}} {{#quotedTweet}} {{{ renderQuoted }}} {{/quotedTweet}} {{#isInThread}} &lt;div class&#x3D;&quot;margin-b--5&quot;&gt;&lt;/div&gt; {{/isInThread}} {{/hasMedia}} {{#quotedTweetMissing}} {{&gt;status/quoted_tweet_missing}} {{/quotedTweetMissing}} {{#translation}}{{&gt;status/tweet_translation}}{{/translation}} {{&gt;status/tweet_media_wrapper}} &lt;/div&gt; {{^isInConvo}} {{#isInThread}} <span><span style="color: green;">{{^inDialog}} <span><span style="color: black;">&lt;span class&#x3D;&quot;link-complex btn-neutral-positive&quot;&gt; &lt;p class&#x3D;&quot;txt-ellipsis link-complex-target margin-b--5&quot;&gt;{{_i}}Show this thread{{/i}}&lt;/p&gt; &lt;/span&gt; {{/<span><span style="color: green;">inDialog}} {{#inDialog}} &lt;p class&#x3D;&quot;txt-mute&quot;&gt;{{_i}}Show this thread{{/i}}&lt;/p&gt; {{/inDialog}} {{/<span><span style="color: black;">isInThread}} {{/isInConvo}} {{&gt;status/tweet_single_footer}} &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">171211124126<span><span style="color: green;">171212174609<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

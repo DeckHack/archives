@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">db8b086215<span><span style="color: green;">13b0d18f22<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">0224a9d445<span><span style="color: green;">7dd6401843<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">92dae2e2b2<span><span style="color: green;">35a01738d5<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">e7db66430f68aed738f8ae55bcf808cec0e69f91<span><span style="color: green;">f8fa802eab891c249cefaab96d711de7d4b8e4e1<span></pre>
+              </div>
+            </article>
+            <article class="message is-danger">
+              <div class="message-header">
+                <code>templates.column/edit_customtimeline.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: red">{{#withTitle}} &lt;input class&#x3D;&quot;js-customtimeline-title js-submittable-input&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{_i}}Title{{/i}}&quot; value&#x3D;&quot;{{customTimelineName}}&quot; style&#x3D;&quot;margin-bottom: 5px&quot;&gt; {{/withTitle}} {{#withDescription}} &lt;input class&#x3D;&quot;js-customtimeline-desc js-submittable-input&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{_i}}Description{{/i}}&quot; value&#x3D;&quot;{{customTimelineDescription}}&quot;&gt; {{/withDescription}}</pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">180104114359<span><span style="color: green;">180111172511<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

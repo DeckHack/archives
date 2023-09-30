@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/css/app-dark.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/css/app-dark.<span><span style="color: red;">ec8faed34e<span><span style="color: green;">6aafab9596<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/css/app-light.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/css/app-light.<span><span style="color: red;">0139234f74<span><span style="color: green;">31c8af2833<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">bc231bed5b<span><span style="color: green;">435aab6448<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">23e60a9c19<span><span style="color: green;">eb03050b7e<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">e6d6dfc954<span><span style="color: green;">f0a2cf494c<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">ea4cfba338d065f0657aae7340f4ca4460ef1339<span><span style="color: green;">1cb62e8e878b701612897759eef124e48614c569<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.column.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;section class&#x3D;&quot;js-column {{^isTemporary}}column{{/isTemporary}} {{#isTemporary}}column-temp is-inverted-dark{{/isTemporary}} {{columnclass}}&quot; data-column&#x3D;&quot;{{columnkey}}&quot;&gt; &lt;div class&#x3D;&quot;js-column-holder column-holder&quot;&gt; &lt;div class&#x3D;&quot;column-panel flex flex-column height-p--100&quot;&gt; {{&gt; column/column_header}} {{#isSearch}} &lt;div class&#x3D;&quot;js-search-filter-callout&quot;&gt;&lt;/div&gt; {{/isSearch}} &lt;div class&#x3D;&quot;js-column-content column-content flex-auto position-rel flex flex-column height-p--100&quot;&gt; &lt;div class&#x3D;&quot;js-column-options-container column-options flex-shrink--0 z-index--2&quot;&gt; &lt;div class&#x3D;&quot;js-column-options {{#isTouchColumnOptions}}with-touch-txt-base{{/isTouchColumnOptions}}&quot;&gt;&lt;/div&gt; {{^isTemporary}} &lt;div class&#x3D;&quot;js-column-message scroll-none&quot;&gt;&lt;/div&gt; {{/isTemporary}}  &lt;div class&#x3D;&quot;js-customtimeline-description scroll-none with-column-divider-bottom is-hidden&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-<span><span style="color: green;">insights-entry-point&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;js-<span><span style="color: black;">live-video&quot;&gt;&lt;/div&gt; {{&gt; column/chirp_container}} &lt;div class&#x3D;&quot;js-column-drag-drop-overlay column-drag-drop-overlay drag-drop-indicator pin-all&quot;&gt; &lt;div class&#x3D;&quot;l-table column-drag-drop-overlay-inner drag-drop-indicator&quot;&gt; &lt;div class&#x3D;&quot;l-cell js-drag-drop-overlay-text&quot;&gt; {{_i}}Add here{{/i}} &lt;/div&gt; &lt;div class&#x3D;&quot;l-cell js-drag-drop-overlay-spinner is-hidden&quot;&gt; {{&gt; column/add_to_customtimeline_drop_indicator_spinner}} &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-more-tweets-btn-container more-tweets-btn-container pin-top more-tweets-btn-container--hidden&quot;&gt; &lt;div class&#x3D;&quot;js-more-tweets-glow more-tweets-glow obj-center is-hidden&quot;&gt;&lt;/div&gt; &lt;button class&#x3D;&quot;js-more-tweets-btn btn btn-positive more-tweets-btn txt-size--12&quot;&gt; &lt;div class&#x3D;&quot;more-tweets-btn-inner-default&quot;&gt; &lt;i class&#x3D;&quot;icon icon-pointer-u icon-match-context icon-tt&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-more-tweets-btn-text&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;more-tweets-btn-inner-mouse-release&quot;&gt; {{_i}}Release to refresh{{/i}} &lt;/div&gt; &lt;div class&#x3D;&quot;more-tweets-btn-inner-loading&quot;&gt;{{_i}}Loading...{{/i}}&lt;/div&gt; &lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-add-to-customtimeline add-by-url padding-hm is-hidden flex-shrink--0&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-column-detail column-detail column-panel flex flex-column height-p--100&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;js-column-social-proof column-detail-level-2 column-panel flex flex-column height-p--100&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;/section&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.insights/audience_insights.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;margin-v--26&quot;&gt; &lt;h4 class&#x3D;&quot;txt-size--16 txt-bold margin-b--8&quot;&gt;{{title}}&lt;/h4&gt; &lt;<span><span style="color: red;">ul<span><span style="color: green;">div<span><span style="color: black;"> class&#x3D;&quot;<span><span style="color: red;">width<span><span style="color: green;">txt-right txt-size<span><span style="color: black;">--<span><span style="color: red;">250<span><span style="color: green;">12&quot;&gt;{{_i}}% of audience{{/i}}&lt;/div&gt; &lt;ol class&#x3D;&quot;border-separated<span><span style="color: black;">&quot;&gt; {{#rows}} &lt;li class&#x3D;&quot;flex txt-size--<span><span style="color: red;">13<span><span style="color: green;">14<span><span style="color: black;"> margin-t--4<span><span style="color: green;"> padding-v--20<span><span style="color: black;">&quot;&gt; &lt;div class&#x3D;&quot;<span><span style="color: red;">txt<span><span style="color: green;">width<span><span style="color: black;">-<span><span style="color: red;">ellipsis<span><span style="color: green;">p--5&quot;&gt;<span><span style="color: black;"> <span><span style="color: red;">flex<span><span style="color: green;">{{ordinal}} &lt;/div&gt; &lt;div class&#x3D;&quot;width<span><span style="color: black;">-<span><span style="color: red;">grow<span><span style="color: green;">p<span><span style="color: black;">--<span><span style="color: red;">1&quot;&gt;{{<span><span style="color: green;">50&quot;&gt; {{<span><span style="color: black;">name<span><span style="color: red;">}}&lt;/<span><span style="color: green;">}} &lt;/<span><span style="color: black;">div&gt; &lt;div class&#x3D;&quot;<span><span style="color: green;">width-p--45 flex&quot;&gt; &lt;div class&#x3D;&quot;<span><span style="color: black;">margin-h--10&quot;&gt;{{percentage}}%&lt;/div&gt; &lt;div class&#x3D;&quot;block flex-<span><span style="color: red;">shrink<span><span style="color: green;">grow<span><span style="color: black;">--<span><span style="color: red;">0<span><span style="color: green;">1<span><span style="color: black;"> flex-align-self--center width--100 height-0 margin-l--10 bg-twitter-faint-gray&quot;&gt;<span><span style="color: red;">  <span><span style="color: green;"> <span><span style="color: black;">&lt;div class&#x3D;&quot;height-p--100 bg-twitter-blue&quot; style&#x3D;&quot;width: {{percentage<span><span style="color: red;">}}%&quot;<span><span style="color: green;">}}%&quot;&gt;&lt;/div&gt;<span><span style="color: black;"> <span><span style="color: red;">/&gt;<span><span style="color: green;">&lt;/div&gt;<span><span style="color: black;"> &lt;/div&gt; &lt;/li&gt; {{/rows}} &lt;/<span><span style="color: red;">ul<span><span style="color: green;">ol<span><span style="color: black;">&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.insights/insights_panel.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;txt-twitter-black&quot;&gt; &lt;div class&#x3D;&quot;js-insights-main-chart&quot;&gt;&lt;/div&gt;<span><span style="color: green;">  &lt;div<span><span style="color: black;"> <span><span style="color: green;">class&#x3D;&quot;js-top-related&quot;&gt;&lt;/div&gt;  <span><span style="color: black;">&lt;div class&#x3D;&quot;js-audience-insights&quot;&gt; &lt;div class&#x3D;&quot;js-audience-insights-age&quot;&gt;&lt;/div&gt; &lt;/div&gt;<span><span style="color: red;"> <span><span style="color: green;">  <span><span style="color: black;">&lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-success">
+              <div class="message-header">
+                <code>templates.insights/entry_point.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: green">&lt;div class&#x3D;&quot;with-column-divider-bottom padding-a--8 is-actionable&quot;&gt; &lt;div class&#x3D;&quot;js-entry-point-sparkline height--40&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;padding-t--8 flex flex-align--center txt-twitter-deep-gray&quot;&gt; &lt;span class&#x3D;&quot;margin-t--2&quot;&gt;{{_i}}285K Tweets today{{/i}}&lt;/span&gt; &lt;span class&#x3D;&quot;txt-twitter-green margin-l--8&quot;&gt; &lt;span class&#x3D;&quot;icon icon-small icon-pointer-u&quot;&gt;&lt;/span&gt; &lt;span&gt;34.9%&lt;/span&gt; &lt;/span&gt; &lt;span class&#x3D;&quot;flex-auto flex-justify-content--flex-end flex flex-align--center txt-size-variable--16&quot;&gt; &lt;span&gt;{{_i}}Insights{{/i}}&lt;/span&gt; &lt;span class&#x3D;&quot;icon icon-small icon-arrow-r&quot;&gt;&lt;/span&gt; &lt;/span&gt; &lt;/div&gt; &lt;/div&gt;</pre>
+              </div>
+            </article>
+            <article class="message is-success">
+              <div class="message-header">
+                <code>templates.insights/related_words.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: green">&lt;div class&#x3D;&quot;margin-v--26&quot;&gt; &lt;h4 class&#x3D;&quot;txt-size--16 txt-bold margin-b--8&quot;&gt;{{_i}}Related terms{{/i}}&lt;/h4&gt; &lt;ol class&#x3D;&quot;border-separated&quot;&gt; {{#rows}} &lt;li class&#x3D;&quot;flex txt-size--14 margin-t--4 padding-v--20&quot;&gt; &lt;div class&#x3D;&quot;width-p--5&quot;&gt; {{ordinal}} &lt;/div&gt; &lt;div class&#x3D;&quot;width-p--50&quot;&gt; {{word}}&lt;br/&gt; &lt;span class&#x3D;&quot;txt-twitter-dark-gray&quot;&gt;{{volume}} {{_i}}Tweets{{/i}}&lt;/span&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;width-p--45&quot;&gt; &lt;div id&#x3D;&quot;js-sparkline-{{key}}&quot;&gt; &lt;/div&gt; &lt;span class&#x3D;&quot;txt-mute txt-size--12 margin-v--2 pull-right&quot;&gt;{{_i}}Past week{{/i}}&lt;/span&gt; &lt;/div&gt; &lt;/li&gt; {{/rows}} &lt;/ol&gt; &lt;/div&gt;</pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">171115174112<span><span style="color: green;">171127141246<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

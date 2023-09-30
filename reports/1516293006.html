@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">13b0d18f22<span><span style="color: green;">6ff5e8820b<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">7dd6401843<span><span style="color: green;">483dda4d23<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">35a01738d5<span><span style="color: green;">fb4adeb96c<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">f8fa802eab891c249cefaab96d711de7d4b8e4e1<span><span style="color: green;">b7b357fd034a13aa047bbfe41e128af7bea8e9ba<span></pre>
+              </div>
+            </article>
+            <article class="message is-danger">
+              <div class="message-header">
+                <code>templates.account_shared_warning.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: red">{{&lt; modal}} {{$modal_class}}mdl-account-shared-warning{{/modal_class}} {{$content}}  &lt;p&gt; {{_i}}Before you add another account, remember that anyone with the password for @{{signinAccount}} will have &lt;strong&gt;full access&lt;/strong&gt; to any Twitter accounts you connect here, even if you keep the passwords for those connected accounts secret.{{/i}} &lt;/p&gt; &lt;br&gt; &lt;p&gt; {{_i}}Take &lt;strong&gt;extra care&lt;/strong&gt; not to share your password for @{{signinAccount}}. If you think you&amp;rsquo;ve shared it already, please &lt;a href&#x3D;&quot;https://twitter.com/settings/password&quot;&gt;change it now&lt;/a&gt;.{{/i}} &lt;/p&gt; {{/content}}  {{$footer_content}} &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;button class&#x3D;&quot;js-account-shared-abort-btn btn btn-negative&quot;&gt;&lt;/i&gt;{{_i}}Cancel{{/i}}&lt;/button&gt; &lt;button class&#x3D;&quot;js-account-shared-continue-btn btn btn-positive&quot;&gt;&lt;/i&gt;{{_i}}I understand &amp;mdash; add a Twitter account{{/i}}&lt;/button&gt; &lt;/div&gt; {{/footer_content}} {{/modal}}</pre>
+              </div>
+            </article>
+            <article class="message is-danger">
+              <div class="message-header">
+                <code>templates.column/add_to_customtimeline.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: red">&lt;div class&#x3D;&quot;input-group-button margin-tm&quot;&gt; &lt;button class&#x3D;&quot;js-add-to-customtimeline-button js-spinner-button pull-right btn btn-square&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-r&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon spinner-small-trans icon-center-16 is-hidden&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;div class&#x3D;&quot;nbfc&quot;&gt; &lt;input class&#x3D;&quot;js-add-to-customtimeline-input js-submittable-input input-group-input br-left&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{_i}}Enter Tweet URL{{/i}}&quot; value&#x3D;&quot;&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot; data-customtimeline-id&#x3D;&quot;{{customTimelineId}}&quot; &gt; &lt;/div&gt; &lt;/div&gt;</pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.embed_tweet.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">{{&lt;<span><span style="color: green;">&lt;div<span><span style="color: black;"> <span><span style="color: red;">modal}} {{$modal_class}}s<span><span style="color: green;">class&#x3D;&quot;bg<span><span style="color: black;">-<span><span style="color: red;">nonav<span><span style="color: green;">r-white<span><span style="color: black;"> <span><span style="color: red;">embed<span><span style="color: green;">txt<span><span style="color: black;">-<span><span style="color: red;">modal{{/modal_class}}<span><span style="color: green;">twitter-dark-black&quot;&gt;<span><span style="color: black;"> {{$content}}  &lt;div class&#x3D;&quot;margin-h--15 margin-b--20&quot;&gt; &lt;span class&#x3D;&quot;block margin-bl&quot;&gt;{{_i}}Add this Tweet to your website by copying the code below. If your CMS supports it, you can just paste in the link.{{/i}} &lt;a class&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot; href&#x3D;&quot;https://dev.twitter.com/docs/embedded-tweets&quot;&gt;{{_i}}Learn more{{/i}}&lt;/a&gt; {{_i}}about embedded Tweets.{{/i}}&lt;/span&gt;  &lt;textarea class&#x3D;&quot;js-embed-textarea block margin-bl&quot; rows&#x3D;&quot;2&quot; readonly&gt;{{html}}&lt;/textarea&gt;  {{#isReply}} &lt;label class&#x3D;&quot;checkbox is-actionable block&quot;&gt;{{_i}}Include parent Tweet{{/i}} &lt;input type&#x3D;&quot;checkbox&quot; {{#includeParentTweet}}checked{{/includeParentTweet}} class&#x3D;&quot;js-embed-include-parent&quot;&gt; &lt;/label&gt; {{/isReply}}  &lt;p class&#x3D;&quot;txt-r-dark-gray&quot;&gt;{{_i}}By embedding Twitter content in your website or app, you are agreeing to the{{/i}} &lt;a class&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot; href&#x3D;&quot;https://dev.twitter.com/overview/terms/agreement&quot;&gt;{{_i}}Developer Agreement{{/i}}&lt;/a&gt; {{_i}}and{{/i}} &lt;a class&#x3D;&quot;url&quot; target&#x3D;&quot;_blank&quot; href&#x3D;&quot;https://dev.twitter.com/overview/terms/policy&quot;&gt;{{_i}}Developer Policy{{/i}}&lt;/a&gt;.&lt;/p&gt; {{#hasMedia}} &lt;label class&#x3D;&quot;checkbox is-actionable block&quot;&gt;{{_i}}Include media{{/i}} &lt;input type&#x3D;&quot;checkbox&quot; {{#includeMedia}}checked{{/includeMedia}} class&#x3D;&quot;js-embed-include-media&quot;&gt; &lt;/label&gt; {{/hasMedia}}  &lt;/div&gt;  &lt;b class&#x3D;&quot;block margin-ll txt-r-dark-gray margin-h--15&quot;&gt;{{_i}}Preview{{/i}}&lt;/b&gt;  &lt;div class&#x3D;&quot;js-embed-loading-container embed-loading-container margin-h--15&quot;&gt; &lt;img src&#x3D;&quot;{{#asset}}/web/assets/global/backgrounds/spinner_large_white.gif{{/asset}}&quot; class&#x3D;&quot;embed-loading&quot; alt&#x3D;&quot;Loading…&quot; /&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;js-embed-iframe-container embed-iframe-container margin-h--7&quot;&gt; &lt;iframe class&#x3D;&quot;js-embed-iframe embed-iframe&quot;&gt; &lt;/iframe&gt; &lt;/div&gt;  {{/content}} <span><span style="color: red;">{{/modal}}<span><span style="color: green;">&lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-success">
+              <div class="message-header">
+                <code>templates.column/add_to_custom_timeline.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre style="color: green">&lt;div class&#x3D;&quot;input-group-button margin-tm&quot;&gt; &lt;button class&#x3D;&quot;js-add-to-customtimeline-button js-spinner-button pull-right btn btn-square&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-r&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon spinner-small-trans icon-center-16 is-hidden&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;div class&#x3D;&quot;nbfc&quot;&gt; &lt;input class&#x3D;&quot;js-add-to-customtimeline-input js-submittable-input input-group-input br-left&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;{{_i}}Enter Tweet URL{{/i}}&quot; value&#x3D;&quot;&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot; data-customtimeline-id&#x3D;&quot;{{customTimelineId}}&quot; &gt; &lt;/div&gt; &lt;/div&gt;</pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">180111172511<span><span style="color: green;">180118152838<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

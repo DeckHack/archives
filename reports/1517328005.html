@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">326c7f1c67<span><span style="color: green;">c805ac1f2b<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">66586ac1c8<span><span style="color: green;">9e0a0754f0<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/static-page.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/static-page.<span><span style="color: red;">6959142a31<span><span style="color: green;">8f09c4fa89<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">509b9ac34d<span><span style="color: green;">979918b3b5<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">afecda6a0a<span><span style="color: green;">9eca2ae598<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">020a035aff474f0e36de62a214f26c031b56d01a<span><span style="color: green;">bcd33ee0ad38e3188e9fc080b180e9c0bcab623e<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.command_palette/base.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;width--490 max-height--400 padding-a--10 br--6 bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray flex flex-column&quot;&gt; &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;js-input js-submittable-input js-escapable-input height--36 br--6 flex-shrink--0&quot; placeholder&#x3D;&quot;{{_i}}Type a command…{{/i}}&quot;&gt; &lt;div class&#x3D;&quot;js-command-list full-width scroll-v margin-t--10 flex-auto&quot;&gt;&lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.compose/account_selector.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;<span><span style="color: red;">js-account-list <span><span style="color: black;">margin-b--11 compose-accounts cf {{gridModeClass}}&quot;&gt; {{#accounts}} &lt;a class&#x3D;&quot;js-account-item {{^<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}}js-show-tip{{/<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} compose-account is-actionable {{#isSelected}}is-selected{{/isSelected}} {{#<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}}cf{{/<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} link-clean&quot; tabindex&#x3D;&quot;0&quot; title&#x3D;&quot;@{{screenName}}&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; {{#<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} &lt;div class&#x3D;&quot;position-rel obj-left&quot;&gt; &lt;img src&#x3D;&quot;{{profileImageURL}}&quot; alt&#x3D;&quot;&quot; width&#x3D;&quot;{{avatarSize}}&quot; height&#x3D;&quot;{{avatarSize}}&quot; class&#x3D;&quot;avatar compose-account-img <span><span style="color: green;">size<span><span style="color: black;">{{<span><span style="color: red;">avatarSizeClass<span><span style="color: green;">avatarSize<span><span style="color: black;">}}&quot; /&gt; &lt;div class&#x3D;&quot;compose-account-selected&quot;&gt;&lt;i class&#x3D;&quot;icon icon-check txt-size--12&quot;&gt;&lt;/i&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc compose-account-names link-clean&quot;&gt; &lt;b class&#x3D;&quot;txt-size--14 txt-ellipsis inline-block&quot;&gt;{{{emojifiedName}}}&lt;/b&gt; &lt;p class&#x3D;&quot;txt-size--13 txt-ellipsis&quot;&gt;@{{screenName}}&lt;/p&gt; &lt;/div&gt;  {{/<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} {{^<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} &lt;img src&#x3D;&quot;{{profileImageURL}}&quot; alt&#x3D;&quot;&quot; width&#x3D;&quot;{{avatarSize}}&quot; height&#x3D;&quot;{{avatarSize}}&quot; class&#x3D;&quot;avatar compose-account-img <span><span style="color: green;">size<span><span style="color: black;">{{<span><span style="color: red;">avatarSizeClass<span><span style="color: green;">avatarSize<span><span style="color: black;">}}&quot; /&gt; &lt;div class&#x3D;&quot;compose-account-selected&quot;&gt;&lt;i class&#x3D;&quot;icon icon-check txt-size--12&quot;&gt;&lt;/i&gt;&lt;/div&gt; {{/<span><span style="color: red;">isList<span><span style="color: green;">isListGridMode<span><span style="color: black;">}} &lt;/a&gt; {{/accounts}} &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.compose/docked_compose.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-docked-compose compose txt-size--14&quot;&gt;  &lt;div class&#x3D;&quot;js-compose-scroller compose-content antiscroll-wrap pin-all&quot;&gt; &lt;div class&#x3D;&quot;antiscroll-inner scroll-v scroll-styled-v padding-h--15&quot;&gt;  &lt;header class&#x3D;&quot;js-compose-header compose-header&quot;&gt; &lt;div class&#x3D;&quot;position-rel compose-title inline-block&quot;&gt; &lt;h1 class&#x3D;&quot;js-compose-title compose-title-text txt-ellipsis inline-block&quot;&gt;{{_i}}New Tweet{{/i}}&lt;/h1&gt; &lt;/div&gt; &lt;i class&#x3D;&quot;js-drawer-close is-actionable icon icon-close margin-vm pull-right&quot;&gt;&lt;/i&gt; &lt;/header&gt;  &lt;div class&#x3D;&quot;js-inline-confirmation margin-bxl&quot;&gt;&lt;/div&gt;  &lt;div class&#x3D;&quot;margin-v--14 cf&quot;&gt; &lt;div class&#x3D;&quot;pull-left compose-text-title&quot;&gt; {{_i}}From{{/i}} &lt;/div&gt; &lt;div class&#x3D;&quot;js-account-selector-grid-toggle pull-right account-selector-grid-toggle&quot;&gt; &lt;/div&gt; &lt;/div&gt;  &lt;!-- Accounts --&gt; <span><span style="color: green;">&lt;div class&#x3D;&quot;js-account-list&quot;&gt; <span><span style="color: black;">{{&gt;compose/account_selector}} <span><span style="color: green;">&lt;/div&gt; <span><span style="color: black;">&lt;!-- end Accounts --&gt;  &lt;!-- Direct Message --&gt; &lt;div class&#x3D;&quot;js-compose-message-recipient-container compose-message-recipient-container margin-bxl position-rel cf&quot;&gt; &lt;p class&#x3D;&quot;padding-b--9 compose-text-title&quot;&gt;{{_i}}To{{/i}}&lt;/p&gt;  &lt;div class&#x3D;&quot;js-compose-message-recipient-input-container compose-message-recipient-input-container scroll-v position-rel bg-r-white br--4&quot;&gt; &lt;div class&#x3D;&quot;js-compose-message-recipient-list flex flex-wrap--wrap compose-message-recipient-list position-rel is-hidden cf border-box padding-r--4 padding-b--4 br--4 padding-l--4&quot;&gt; &lt;/div&gt; &lt;!-- message recipient input --&gt; &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;js-compose-message-account js-non-escapable-input compose-message-account&quot;&gt; &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;js-clear-input txt-size--14 input-clear-control&quot; tabindex&#x3D;&quot;-1&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-small&quot;&gt;&lt;/i&gt; &lt;/a&gt;  &lt;/div&gt;  &lt;div class&#x3D;&quot;js-typeahead-dropdown border-box typeahead-dropdown dropdown-menu br--6 bs-1 bg-r-white txt-twitter-dark-black is-hidden scroll-v {{#styledScrollbar}}scroll-styled-v{{/styledScrollbar}} padding-t--0 padding-b--0&quot;&gt; &lt;ul class&#x3D;&quot;js-typeahead-conversation-list is-hidden&quot;&gt;&lt;/ul&gt; &lt;ul class&#x3D;&quot;js-typeahead-user-list is-hidden&quot;&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- end Direct Message --&gt;  &lt;div class&#x3D;&quot;js-compose-message-header margin-b--9 compose-text-title&quot;&gt;&lt;/div&gt;  &lt;!-- reply to tweet --&gt; &lt;div class&#x3D;&quot;js-in-reply-to compose-reply-tweet padding-al margin-b---4 br-top--4 is-hidden&quot;&gt;&lt;/div&gt; &lt;!-- end reply to tweet --&gt;  &lt;!-- Compose box --&gt; &lt;div class&#x3D;&quot;position-rel compose-text-container padding-a--10 br--4&quot;&gt; &lt;!-- Simplified replies container --&gt; &lt;div class&#x3D;&quot;js-reply-info-container is-hidden txt-size--12 padding-b--6&quot;&gt;&lt;/div&gt;  &lt;textarea class&#x3D;&quot;js-compose-text compose-text txt-size--14 scroll-v scroll-styled-v scroll-styled-h scroll-alt padding-a--0&quot; placeholder&#x3D;&quot;{{_i}}What&#x27;s happening?{{/i}}&quot;&gt;&lt;/textarea&gt; {{&gt; compose/character_count_with_circle}} &lt;/div&gt;  &lt;!-- Media bar --&gt; &lt;div class&#x3D;&quot;js-media-added is-hidden&quot;&gt;&lt;/div&gt;  &lt;!-- Quote Tweet --&gt; &lt;div class&#x3D;&quot;js-quote-tweet-holder padding-a--10 bg-r-white margin-t---4 br-bottom--4&quot;&gt;&lt;/div&gt; &lt;!-- End compose box --&gt;  &lt;!-- Hint bar --&gt; &lt;div class&#x3D;&quot;js-compose-hint margin-vl&quot;&gt; &lt;/div&gt;  &lt;!-- safeguard checkbox --&gt; &lt;div class&#x3D;&quot;js-account-safeguard-checkbox cf margin-v--7&quot;&gt; &lt;label for&#x3D;&quot;account-safeguard-checkbox&quot; class&#x3D;&quot;pull-right txt-size-variable--12&quot;&gt;&lt;span class&#x3D;&quot;js-account-safeguard-text&quot;&gt;Ready to Tweet?&lt;/span&gt; &lt;input id&#x3D;&quot;account-safeguard-checkbox&quot; class&#x3D;&quot;on-blue&quot; type&#x3D;&quot;checkbox&quot; /&gt;&lt;/label&gt; &lt;/div&gt;  &lt;!-- Send tweet button  &amp; character count --&gt; &lt;div class&#x3D;&quot;cf margin-t--12 margin-b--30&quot;&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;div class&#x3D;&quot;js-send-button-container spinner-button-container&quot;&gt; &lt;button class&#x3D;&quot;js-send-button js-spinner-button js-show-tip is-disabled btn btn-positive btn-extra-height&quot; {{_i}}Tweet{{/i}}&gt; &lt;/button&gt; &lt;i class&#x3D;&quot;js-compose-sending-success icon-center-16 compose-send-button-success icon icon-check is-hidden&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-media-upload-progress media-upload-progress is-hidden&quot;&gt;&lt;/span&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon-center-16 spinner-button-icon-spinner is-hidden&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;!-- Option buttons --&gt; &lt;button class&#x3D;&quot;js-add-image-button js-show-tip needsclick btn btn-on-blue full-width txt-left margin-b--12 padding-v--9 is-disabled&quot;&gt; &lt;i class&#x3D;&quot;icon icon-camera&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-add-image-button-label label padding-ls&quot;&gt;{{_i}}Add image{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;div class&#x3D;&quot;js-scheduler&quot;&gt; &lt;button class&#x3D;&quot;js-schedule-button js-show-tip btn btn-on-blue full-width txt-left margin-b--12 padding-v--9 is-disabled&quot;&gt; &lt;i class&#x3D;&quot;icon icon-schedule&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-schedule-button-label label padding-ls&quot;&gt;{{_i}}Schedule Tweet{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;span class&#x3D;&quot;js-schedule-datepicker-holder&quot;/&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;js-tweet-type-button&quot;&gt; &lt;button class&#x3D;&quot;js-tweet-button btn btn-on-blue full-width txt-left margin-b--12 padding-v--9 is-hidden&quot;&gt; &lt;i class&#x3D;&quot;icon icon-twitter-bird&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label padding-ls&quot;&gt;{{_i}}New Tweet{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;button class&#x3D;&quot;js-dm-button js-show-tip btn btn-on-blue full-width txt-left margin-b--12 padding-v--9&quot;&gt; &lt;i class&#x3D;&quot;icon icon-message&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label padding-ls&quot;&gt;{{_i}}Direct message{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;/div&gt; &lt;!-- end option buttons --&gt; &lt;/div&gt; &lt;/div&gt;  &lt;footer class&#x3D;&quot;pin-bottom margin-a--15&quot;&gt; &lt;label class&#x3D;&quot;checkbox checkbox-reversed compose-remember-state pull-right&quot;&gt; {{_i}}Stay open{{/i}} &lt;input class&#x3D;&quot;js-compose-stay-open on-blue&quot; type&#x3D;&quot;checkbox&quot;/&gt; &lt;/label&gt; &lt;/footer&gt;  &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.insights/demographics.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;margin-v--26&quot;&gt; &lt;h4 class&#x3D;&quot;txt-size--16 txt-bold margin-b--8&quot;&gt;{{title}}&lt;/h4&gt; &lt;div class&#x3D;&quot;txt-right txt-size--12&quot;&gt;{{_i}}% of audience{{/i}}&lt;/div&gt; &lt;ol class&#x3D;&quot;border-separated&quot;&gt; {{#ageInsights}} &lt;li class&#x3D;&quot;flex txt-size--14 margin-t--4 padding-v--20&quot;&gt; &lt;div class&#x3D;&quot;width-p--5&quot;&gt; {{ordinal}} &lt;/div&gt; &lt;div class&#x3D;&quot;width-p--50&quot;&gt; {{name}} &lt;/div&gt; &lt;div class&#x3D;&quot;width-p--45 flex&quot;&gt; &lt;div class&#x3D;&quot;width-5 margin-h--10 txt-right&quot;&gt;{{percentage}}%&lt;/div&gt; &lt;div class&#x3D;&quot;block flex-grow--1 flex-align-self--center height-0 margin-l--10 bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray&quot;&gt; &lt;div class&#x3D;&quot;height-p--100 bg-twitter-blue&quot; style&#x3D;&quot;width: {{percentage}}%&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/li&gt; {{/ageInsights}} &lt;/ol&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.settings/account_settings.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-accounts-column-holder is-inverted-dark column-holder txt-size--14&quot;&gt; &lt;div class&#x3D;&quot;js-account-manager-container column-panel border-box bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray flex flex-column&quot;&gt;  &lt;header class&#x3D;&quot;drawer-header padding-lxl flex-shrink--0&quot;&gt; &lt;h1 class&#x3D;&quot;column-title&quot;&gt; &lt;span class&#x3D;&quot;drawer-header-title block drawer-column-header-title&quot;&gt;{{_i}}Accounts{{/i}}&lt;/span&gt; &lt;/h1&gt; &lt;a class&#x3D;&quot;js-drawer-close column-close-link txt-r-dark-gray&quot; href&#x3D;&quot;#&quot; data-action&#x3D;&quot;options&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-center-24&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;/header&gt;  &lt;div class&#x3D;&quot;js-account-settings-scroll-container scroll-v margin-b---1&quot;&gt; &lt;div class&#x3D;&quot;accordion is-active&quot;&gt; &lt;div class&#x3D;&quot;js-account-settings-login-account is-active&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;js-invitations-panel&quot;&gt;&lt;/div&gt; &lt;div class&#x3D;&quot;js-account-settings-team-info padding-v--12 txt-size--13 txt-r-dark-gray txt-bold padding-hxl position-rel account-row-separator-b is-hidden&quot;&gt; {{_i}}Accounts you can act as{{/i}} &lt;/div&gt; &lt;div class&#x3D;&quot;js-account-settings-accounts bg-r-white&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-account-invited-accounts&quot;&gt;&lt;/div&gt; {{#decider.add_account}} &lt;div class&#x3D;&quot;join-team margin-t--10 width-p--100 bg-r-white&quot;&gt; {{&gt;settings/account_settings_join_team}} &lt;/div&gt; {{/decider.add_account}} &lt;/div&gt;  &lt;/div&gt;  &lt;div class&#x3D;&quot;js-contributor-manager-container column-panel border-box bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray flex flex-column&quot;&gt;&lt;/div&gt;  &lt;div class&#x3D;&quot;js-team-invitations-container column-panel border-box bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray&quot;&gt; &lt;div class&#x3D;&quot;drawer-header padding-lxl&quot;&gt; &lt;h1 class&#x3D;&quot;js-team-invitations-back is-actionable pull-left txt-weight-normal&quot;&gt; &lt;span class&#x3D;&quot;drawer-header-title block drawer-column-header-title&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-l icon-tt&quot;&gt;&lt;/i&gt; {{_i}}Team invitations{{/i}} &lt;/span&gt; &lt;/h1&gt; &lt;a class&#x3D;&quot;js-drawer-close column-close-link txt-r-dark-gray&quot; href&#x3D;&quot;#&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-center-24&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;js-team-invitations team-invitations drawer-content pin-all scroll-v&quot;&gt;&lt;/div&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.settings/account_settings_remove_account.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">{{#isRemovable}} &lt;button {{#notRemovable}}title&#x3D;&quot;{{notRemovableMessage}}&quot;{{/notRemovable}} class&#x3D;&quot;js-account-action js-show-tip btn btn-tertiary txt-size--12 {{#notRemovable}}is-disabled{{/notRemovable}}&quot; data-action&#x3D;&quot;removeCheck&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Leave team{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;div class&#x3D;&quot;js-account-remove-check account-remove-check cf margin-tm padding-axl bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray br--4 padding-l--20 margin-l---20&quot;&gt; &lt;div class&#x3D;&quot;account-remove-check-message padding-bxl txt-r-dark-gray txt-size--13&quot;&gt; Leave this team? You will no longer have access to the @{{screenName}} account. &lt;/div&gt; &lt;button class&#x3D;&quot;js-account-action btn btn-negative pull-left&quot; data-action&#x3D;&quot;remove&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Leave{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;js-account-action cf btn pull-left margin-hm&quot; data-action&#x3D;&quot;removeCancel&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; {{_i}}Cancel{{/i}} &lt;/button&gt; &lt;/div&gt; {{/isRemovable}}<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.settings/global_settings_modal.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;l-column mdl-column mdl-column-sml&quot;&gt; &lt;div class&#x3D;&quot;l-column-scrollv scroll-v {{#styledScrollbar}}scroll-styled-v{{/styledScrollbar}} scroll-alt bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray&quot;&gt; &lt;ul class&#x3D;&quot;lst-group js-setting-list&quot;&gt; {{#tabs}} {{&gt; list_module_list_item}} {{/tabs}} &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;l-column mdl-column mdl-column-lrg&quot;&gt; &lt;div class&#x3D;&quot;l-column-scrollv scroll-v {{#styledScrollbar}}scroll-styled-v{{/styledScrollbar}} scroll-alt mdl-col-settings&quot;&gt; &lt;form action&#x3D;&quot;#&quot; id&#x3D;&quot;global-settings&quot; accept-charset&#x3D;&quot;utf-8&quot; class&#x3D;&quot;js-global-settings frm&quot;&gt;&lt;/form&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.suggest_refresh.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;pin-right pin-bottom-only margin-r--20 margin-b--20 padding-v--6 padding-r--10 padding-l--12 bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray txt-twitter-dark-black z-index--1 br-1 bs-1&quot;&gt; {{_i}}A new version of TweetDeck is available!{{/i}} &lt;button class&#x3D;&quot;js-suggest-refresh--refresh btn btn-positive margin-l--6&quot;&gt;{{_i}}Refresh{{/i}}&lt;/button&gt; &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;js-suggest-refresh--dismiss link-normal-dark margin-l--6&quot;&gt;&lt;i class&#x3D;&quot;icon icon-close icon-tb txt-twitter-gray&quot;&gt;&lt;/i&gt;&lt;/a&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.topbar/app_header.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;header class&#x3D;&quot;js-app-header pin-all app-header&quot;&gt; &lt;div class&#x3D;&quot;js-app-header-inner pin-v app-header-inner&quot;&gt;  &lt;button class&#x3D;&quot;js-show-drawer js-show-tip btn btn-compose margin-bm tweet-button&quot; title&#x3D;&quot;{{_i}}New Tweet{{/i}}&quot; data-tooltip-position&#x3D;&quot;right&quot; data-drawer&#x3D;&quot;compose&quot;&gt; &lt;i class&#x3D;&quot;icon icon-compose&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label margin-an&quot;&gt;{{_i}}New Tweet{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;div class&#x3D;&quot;attach-compose-buttons&quot;&gt;&lt;!-- wrap close button as it has different padding --&gt; &lt;button class&#x3D;&quot;js-hide-drawer btn btn-compose margin-bm tweet-button is-hidden&quot; data-drawer&#x3D;&quot;compose&quot;&gt; &lt;i class&#x3D;&quot;icon icon-compose&quot; data-tweet-type&#x3D;&quot;tweet reply&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;icon icon-compose-dm icon-large&quot; data-tweet-type&#x3D;&quot;message&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;js-search js-overlay app-search&quot;&gt; &lt;button class&#x3D;&quot;js-header-action js-show-tip app-search-fake padding-al margin-bm&quot; data-action&#x3D;&quot;show-search&quot; title&#x3D;&quot;{{_i}}Search{{/i}}&quot; data-tooltip-position&#x3D;&quot;right&quot;&gt; &lt;i class&#x3D;&quot;icon icon-search&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;form class&#x3D;&quot;js-search-form app-search-form full-width&quot;&gt; &lt;label class&#x3D;&quot;is-vishidden&quot;&gt;{{_i}}Search{{/i}}&lt;/label&gt; {{&gt;search_input}} &lt;/form&gt; &lt;div class&#x3D;&quot;js-search-in-popover&quot;&gt;&lt;/div&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;js-column-nav-scroller column-navigator antiscroll-wrap&quot;&gt; &lt;nav id&#x3D;&quot;column-navigator&quot; class&#x3D;&quot;js-column-nav scroll-v antiscroll-inner&quot;&gt;&lt;/nav&gt; &lt;/div&gt;  &lt;nav class&#x3D;&quot;app-navigator margin-bm padding-ts&quot;&gt; &lt;a class&#x3D;&quot;js-header-action js-app-add-column link-clean cf app-nav-link padding-h--10 with-nav-border-t&quot; data-action&#x3D;&quot;add-column&quot; data-title&#x3D;&quot;{{_i}}Add column{{/i}}&quot;&gt; &lt;div class&#x3D;&quot;obj-left margin-l--2&quot;&gt; &lt;i class&#x3D;&quot;icon icon-plus icon-medium&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc padding-ts hide-condensed txt-size--16&quot;&gt;{{_i}}Add column{{/i}}&lt;/div&gt; &lt;/a&gt; &lt;a class&#x3D;&quot;js-header-action link-clean cf app-nav-link padding-h--10&quot; data-action&#x3D;&quot;change-sidebar-width&quot; data-title&#x3D;&quot;{{_i}}Expand{{/i}}&quot;&gt; &lt;div class&#x3D;&quot;obj-left margin-l--2&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-l-double icon-medium&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;icon icon-arrow-r-double icon-medium&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc padding-ts hide-condensed txt-size--16&quot;&gt;{{_i}}Collapse{{/i}}&lt;/div&gt; &lt;/a&gt;  &lt;a class&#x3D;&quot;js-show-drawer js-header-action link-clean cf app-nav-tab&quot;  data-title&#x3D;&quot;{{_i}}Accounts{{/i}}&quot; data-drawer&#x3D;&quot;accountSettings&quot;&gt; &lt;div class&#x3D;&quot;obj-left margin-l--2&quot;&gt; &lt;i class&#x3D;&quot;icon icon-user-switch icon-medium position-rel&quot;&gt; &lt;span class&#x3D;&quot;js-invite-count msg-unread-count numbered-badge numbered-badge-onnav&quot;&gt;&lt;/span&gt; &lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc padding-ts hide-condensed txt-size--16&quot;&gt;{{_i}}Accounts{{/i}}&lt;/div&gt; &lt;/a&gt;  &lt;a class&#x3D;&quot;js-hide-drawer position-rel link-clean cf app-nav-tab bg-twitter-<span><span style="color: red;">faint<span><span style="color: green;">lightest<span><span style="color: black;">-gray txt-r-text is-hidden is-selected&quot;  data-title&#x3D;&quot;{{_i}}Accounts{{/i}}&quot; data-drawer&#x3D;&quot;accountSettings&quot;&gt; &lt;div class&#x3D;&quot;obj-left margin-l--2&quot;&gt; &lt;i class&#x3D;&quot;icon icon-user-switch icon-medium&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc padding-ts hide-condensed txt-size--16&quot;&gt;{{_i}}Accounts{{/i}}&lt;/div&gt; &lt;/a&gt;  &lt;a class&#x3D;&quot;js-header-action js-app-settings link-clean cf app-nav-link padding-h--10&quot; data-action&#x3D;&quot;settings-menu&quot; data-title&#x3D;&quot;{{_i}}Settings{{/i}}&quot;&gt; &lt;div class&#x3D;&quot;obj-left margin-l--2&quot;&gt; &lt;i class&#x3D;&quot;icon icon-settings icon-medium&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc padding-ts hide-condensed txt-size--16&quot;&gt;{{_i}}Settings{{/i}}&lt;/div&gt; &lt;/a&gt;   &lt;/nav&gt;  &lt;div class&#x3D;&quot;js-account-summary&quot;/&gt;  &lt;h1 class&#x3D;&quot;app-title&quot;&gt; &lt;i class&#x3D;&quot;sprite sprite-logo&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;sprite sprite-logo-badge&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;is-vishidden&quot;&gt;TweetDeck&lt;/span&gt; &lt;/h1&gt; &lt;/div&gt;  &lt;/header&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">180125175808<span><span style="color: green;">180130151105<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

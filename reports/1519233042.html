@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DeckCheck - TweetDeck changeset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <style>
+    .message-header code {
+      background-color: unset;
+      color: #FFF;
+    }
+
+    .message-body pre {
+      background-color: unset;
+      white-space: normal;
+    }
+  </style>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            DeckCheck
+          </h1>
+          <h2 class="subtitle">
+            <i>EVERYONE ONTO THE DECKS, WE'VE LOCATED CHANGES!</i>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p>
+          <div class="tags has-addons">
+            <span class="tag">Legend</span>
+            <span class="tag is-success">Added</span>
+            <span class="tag is-info">Edited</span>
+            <span class="tag is-danger">Deleted</span>  
+          </div>
+        </p>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.css</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">f268e29efd<span><span style="color: green;">61b2ca500a<span><span style="color: black;">.css<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/bundle.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/bundle.<span><span style="color: red;">9d4b52d5af<span><span style="color: green;">ac6f1ee9b3<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/dist/vendor.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/dist/vendor.<span><span style="color: red;">a1f3bce016<span><span style="color: green;">d28e4f2699<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>assets./web/mustaches/mustaches.js</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">https://ton.twimg.com/tweetdeck-web/web/mustaches/mustaches.<span><span style="color: red;">935d0c5387<span><span style="color: green;">3bcad6497a<span><span style="color: black;">.js<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>buildID</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: red;">d7ed35f0b94d2b6400b71985c737de8c8f96ad60<span><span style="color: green;">058837ad7ae2d4828dc672ca552a83ecc9b09edd<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.column/column_options.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;form class&#x3D;&quot;with-column-divider-bottom&quot;&gt;  &lt;fieldset class&#x3D;&quot;js-search-filter&quot;&gt; &lt;div class&#x3D;&quot;js-accordion accordion&quot;&gt;&lt;/div&gt; &lt;/fieldset&gt;  {{#isOwnList}} &lt;button class&#x3D;&quot;full-width Button--link btn-bg-positive&quot; type&#x3D;&quot;button&quot; data-action&#x3D;&quot;edit-list&quot;&gt; &lt;i class&#x3D;&quot;icon icon-edit txt-size--14&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label margin-ln&quot;&gt;{{_i}}Edit list{{/i}}&lt;/span&gt; &lt;/button&gt; {{/isOwnList}}  {{#isOwnCustomTimeline}} &lt;button class&#x3D;&quot;full-width Button--link btn-bg-positive&quot; type&#x3D;&quot;button&quot; data-action&#x3D;&quot;edit-customtimeline&quot;&gt; &lt;i class&#x3D;&quot;icon icon-edit txt-size--14&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label margin-ln&quot;&gt;{{_i}}Edit collection{{/i}}&lt;/span&gt; &lt;/button&gt; {{/isOwnCustomTimeline}}  {{#isDataminr}} &lt;a class&#x3D;&quot;full-width Button--link btn-bg-positive url-ext&quot; type&#x3D;&quot;button&quot; href&#x3D;&quot;https://news.dataminr.com/app/core/news/settings.html&quot; rel&#x3D;&quot;url noopener noreferrer&quot; target&#x3D;&quot;_blank&quot; data-scribe-element&#x3D;&quot;dataminr_settings&quot;&gt; &lt;i class&#x3D;&quot;icon icon-dataminr icon-small-valigned&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label margin-ln&quot;&gt;{{_i}}Dataminr settings{{/i}}&lt;/span&gt; &lt;/a&gt; {{/isDataminr}}  &lt;fieldset class&#x3D;&quot;accordion-divider-t button-tray padding-a--6&quot;&gt; &lt;div class&#x3D;&quot;button-group&quot;&gt; &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;Button--link btn-options-tray pull-left padding-hn&quot; data-action&#x3D;&quot;left&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-l icon-small-valigned&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;is-vishidden&quot;&gt;{{_i}}Left{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;Button--link btn-options-tray pull-left padding-hn&quot; data-action&#x3D;&quot;right&quot;&gt; &lt;i class&#x3D;&quot;icon icon-arrow-r icon-small-valigned&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;is-vishidden&quot;&gt;{{_i}}Right{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;button-group position-rel&quot;&gt; &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;js-share-column Button--link btn-options-tray padding-hn{{^isShareableOrEmbeddable}} is-invisible{{/isShareableOrEmbeddable}}&quot;&gt; &lt;i class&#x3D;&quot;icon icon-share&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Share{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;button-group&quot;&gt; &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;Button--link btn-options-tray padding-hn {{^isClearable}}is-invisible{{/isClearable}}&quot; data-action&#x3D;&quot;clear&quot;&gt; &lt;i class&#x3D;&quot;icon icon-clear-timeline&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Clear{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;button-group&quot;&gt; &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;Button--link btn-options-tray padding-hn padding-rs&quot; data-action&#x3D;&quot;remove&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label&quot;&gt;Remove&lt;/span&gt; &lt;/button&gt; &lt;/div&gt; &lt;/fieldset&gt;  &lt;!-- Revisit IF needed for touch --&gt; &lt;!-- {{#isTouchColumnOptions}} &lt;fieldset class&#x3D;&quot;margin-hs padding-tm padding-bm column-options-divider&quot;&gt; &lt;div class&#x3D;&quot;button-group&quot;&gt; &lt;a class&#x3D;&quot;column-action-link is-actionable pull-left&quot; data-action&#x3D;&quot;left&quot;&gt; &lt;i class&#x3D;&quot;icon icon-chevron-left&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;is-vishidden&quot;&gt;{{_i}}Left{{/i}}&lt;/span&gt; &lt;/a&gt; &lt;a class&#x3D;&quot;column-action-link is-actionable pull-left&quot; data-action&#x3D;&quot;right&quot;&gt; &lt;i class&#x3D;&quot;icon icon-chevron-left&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;is-vishidden&quot;&gt;{{_i}}Right{{/i}}&lt;/span&gt; &lt;/a&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; {{#isEmbeddable}} &lt;a class&#x3D;&quot;column-action-link is-actionable&quot; data-action&#x3D;&quot;embed&quot;&gt;&lt;i class&#x3D;&quot;icon icon-share&quot;&gt;&lt;/i&gt;&lt;/a&gt; {{/isEmbeddable}} {{#isClearable}} &lt;a class&#x3D;&quot;column-action-link is-actionable&quot; data-action&#x3D;&quot;clear&quot;&gt;{{_i}}Clear column{{/i}}&lt;/a&gt; {{/isClearable}} {{#isOwnCustomTimeline}} &lt;a class&#x3D;&quot;column-action-link is-actionable&quot; data-action&#x3D;&quot;delete-customtimeline&quot;&gt;{{_i}}Delete collection{{/i}}&lt;/a&gt; {{/isOwnCustomTimeline}} &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;Button--danger<span><span style="color: red;"> btn-square<span><span style="color: black;">&quot; data-action&#x3D;&quot;remove&quot;&gt;&lt;i class&#x3D;&quot;icon icon-trash&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;/div&gt; &lt;/fieldset&gt; {{/isTouchColumnOptions}} --&gt;  &lt;/form&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.column/custom_timeline_description.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">{{#description}} {{#editable}} &lt;button class&#x3D;&quot;js-edit pull-right <span><span style="color: red;">btn<span><span style="color: green;">padding<span><span style="color: black;">-<span><span style="color: red;">square<span><span style="color: green;">a--0<span><span style="color: black;"> <span><span style="color: green;">width--30 <span><span style="color: black;">Button--link margin-txs&quot;&gt; &lt;i class&#x3D;&quot;icon icon-edit txt-mute txt-size--14 padding-txs&quot;&gt;&lt;/i&gt; &lt;/button&gt; {{/editable}} &lt;div class&#x3D;&quot;nbfc&quot;&gt; &lt;p class&#x3D;&quot;padding-v--10 padding-l--10 txt-mute txt-size--13&quot;&gt;{{{description}}}&lt;/p&gt; &lt;/div&gt; {{/description}}<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.column/dm_rename_conversation.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-edit-conversation-name edit-conversation-name <span><span style="color: red;">bg-color-twitter-faded-yellow <span><span style="color: black;">cf&quot; data-conversation-id&#x3D;&quot;{{conversationId}}&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot; &gt; &lt;div class&#x3D;&quot;obj-right&quot;&gt; &lt;button class&#x3D;&quot;btn-<span><span style="color: red;">square<span><span style="color: green;">round bg-color-transparent<span><span style="color: black;">&quot; data-action&#x3D;&quot;confirm-edit-conversation&quot;&gt; &lt;i class&#x3D;&quot;icon icon-check color-twitter-<span><span style="color: red;">deep-green<span><span style="color: green;">blue<span><span style="color: black;">&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;btn-<span><span style="color: red;">square<span><span style="color: green;">round bg-color-transparent<span><span style="color: black;">&quot; data-action&#x3D;&quot;close-edit-conversation&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close color-twitter-<span><span style="color: red;">deep-red<span><span style="color: green;">blue<span><span style="color: black;">&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;nbfc&quot;&gt; &lt;input class&#x3D;&quot;js-conversation-name js-submittable-input js-escapable-input<span><span style="color: red;"> conversation-name<span><span style="color: black;">&quot; maxlength&#x3D;&quot;20&quot;&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.compose/compose_inline_reply.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-inline-reply inline-reply item-box-full-bleed is-inline-inactive is-inline-active position-rel&quot;&gt; &lt;div class&#x3D;&quot;padding-t--10 padding-lxl padding-rxl padding-b--10&quot;&gt; &lt;div class&#x3D;&quot;position-rel compose-text-container margin-v--6 br--4&quot;&gt; &lt;div class&#x3D;&quot;js-reply-info-container txt-size-variable--12 is-hidden padding-h--10 padding-t--10&quot; /&gt; &lt;textarea class&#x3D;&quot;js-compose-text compose-text txt-size-variable--14 scroll-v scroll-styled-v scroll-styled-h scroll-alt&quot; placeholder&#x3D;&quot;{{#addSubsequentTweet}}{{_i}}Add another Tweet{{/i}}{{/addSubsequentTweet}}{{^addSubsequentTweet}}{{_i}}Tweet your reply{{/i}}{{/addSubsequentTweet}}&quot; tabindex&#x3D;&quot;100&quot;&gt;&lt;/textarea&gt; {{&gt; compose/character_count_with_circle}} &lt;/div&gt;  &lt;!-- safeguard checkbox --&gt; &lt;div class&#x3D;&quot;js-account-safeguard-checkbox cf&quot;&gt; &lt;label for&#x3D;&quot;inline-account-safeguard-checkbox&quot; class&#x3D;&quot;pull-right txt-size-variable--12&quot;&gt;Ready to Tweet? &lt;input id&#x3D;&quot;inline-account-safeguard-checkbox&quot; class&#x3D;&quot;on-blue&quot; type&#x3D;&quot;checkbox&quot; tabindex&#x3D;&quot;100&quot; /&gt;&lt;/label&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;cf margin-t--4 full-width&quot;&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;a class&#x3D;&quot;js-account-item js-show-tip compose-account is-actionable is-selected margin-an margin-rl&quot; tabindex&#x3D;&quot;101&quot; data-account-key&#x3D;&quot;{{account.accountKey}}&quot; title&#x3D;&quot;@{{account.screenName}}&quot;&gt; &lt;img src&#x3D;&quot;{{account.profileImageURL}}&quot; alt&#x3D;&quot;&quot; width&#x3D;&quot;30&quot; height&#x3D;&quot;30&quot; class&#x3D;&quot;avatar compose-account-img size30&quot; /&gt; &lt;/a&gt; &lt;div class&#x3D;&quot;js-send-button-container spinner-button-container&quot;&gt; &lt;button class&#x3D;&quot;js-send-button js-spinner-button js-show-tip Button--primary&quot; tabindex&#x3D;&quot;100&quot;&gt; {{_i}}Tweet{{/i}} &lt;/button&gt; &lt;i class&#x3D;&quot;js-compose-sending-success icon-center-16 compose-send-button-success icon icon-check is-hidden&quot;&gt;&lt;/i&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon-center-16 spinner-button-icon-spinner is-hidden&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class&#x3D;&quot;pull-left neg-margin-lm&quot;&gt; &lt;button class&#x3D;&quot;js-inline-compose-close <span><span style="color: red;">btn<span><span style="color: green;">padding<span><span style="color: black;">-<span><span style="color: red;">square<span><span style="color: green;">a--0<span><span style="color: black;"> <span><span style="color: green;">width--30 <span><span style="color: black;">Button--link&quot; tabindex&#x3D;&quot;103&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-medium color-twitter-white&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;js-inline-compose-pop js-show-tip <span><span style="color: red;">btn<span><span style="color: green;">padding<span><span style="color: black;">-<span><span style="color: red;">square<span><span style="color: green;">a--0<span><span style="color: black;"> <span><span style="color: green;">width--30 <span><span style="color: black;">Button--link&quot; tabindex&#x3D;&quot;102&quot; title&#x3D;&quot;{{_i}}Popout{{/i}}&quot;&gt; &lt;i class&#x3D;&quot;icon icon-popout icon-medium color-twitter-white&quot;&gt;&lt;/i&gt; &lt;/button&gt;<span><span style="color: red;">  {{!<span><span style="color: black;"> <span><span style="color: red;">Needs revisiting. Camera button does not fit in narrow columns }} &lt;button class&#x3D;&quot;js-inline-compose-add-image btn btn-square btn-neutral is-hidden&quot;&gt; &lt;i class&#x3D;&quot;icon icon-camera icon-medium&quot;&gt;&lt;/i&gt; <span><span style="color: black;">&lt;/<span><span style="color: red;">button&gt; &lt;/<span><span style="color: black;">div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.compose/docked_compose.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-docked-compose compose txt-size--14&quot;&gt;  &lt;div class&#x3D;&quot;js-compose-scroller compose-content antiscroll-wrap pin-all&quot;&gt; &lt;div class&#x3D;&quot;antiscroll-inner scroll-v scroll-styled-v padding-h--15&quot;&gt;  &lt;header class&#x3D;&quot;js-compose-header compose-header&quot;&gt; &lt;div class&#x3D;&quot;position-rel compose-title inline-block&quot;&gt; &lt;h1 class&#x3D;&quot;js-compose-title compose-title-text txt-ellipsis inline-block&quot;&gt;{{_i}}New Tweet{{/i}}&lt;/h1&gt; &lt;/div&gt; &lt;i class&#x3D;&quot;js-drawer-close is-actionable icon icon-close margin-vm pull-right&quot;&gt;&lt;/i&gt; &lt;/header&gt;  &lt;div class&#x3D;&quot;js-inline-confirmation margin-bxl&quot;&gt;&lt;/div&gt;  &lt;div class&#x3D;&quot;margin-v--14 cf&quot;&gt; &lt;div class&#x3D;&quot;pull-left compose-text-title&quot;&gt; {{_i}}From{{/i}} &lt;/div&gt; &lt;div class&#x3D;&quot;js-account-selector-grid-toggle pull-right account-selector-grid-toggle&quot;&gt; &lt;/div&gt; &lt;/div&gt;  &lt;!-- Accounts --&gt; &lt;div class&#x3D;&quot;js-account-list&quot;&gt; {{&gt;compose/account_selector}} &lt;/div&gt; &lt;!-- end Accounts --&gt;  &lt;!-- Direct Message --&gt; &lt;div class&#x3D;&quot;js-compose-message-recipient-container compose-message-recipient-container margin-bxl position-rel cf&quot;&gt; &lt;p class&#x3D;&quot;padding-b--9 compose-text-title&quot;&gt;{{_i}}To{{/i}}&lt;/p&gt;  &lt;div class&#x3D;&quot;js-compose-message-recipient-input-container compose-message-recipient-input-container scroll-v position-rel bg-color-twitter-white br--4&quot;&gt; &lt;div class&#x3D;&quot;js-compose-message-recipient-list flex flex-wrap--wrap compose-message-recipient-list position-rel is-hidden cf border-box padding-r--4 padding-b--4 br--4 padding-l--4&quot;&gt; &lt;/div&gt; &lt;!-- message recipient input --&gt; &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;js-compose-message-account js-non-escapable-input compose-message-account&quot;&gt; &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;js-clear-input txt-size--14 input-clear-control&quot; tabindex&#x3D;&quot;-1&quot;&gt; &lt;i class&#x3D;&quot;icon icon-close icon-small txt-size--18&quot;&gt;&lt;/i&gt; &lt;/a&gt;  &lt;/div&gt;  &lt;div class&#x3D;&quot;js-typeahead-dropdown border-box typeahead-dropdown dropdown-menu br--6 bs-1 bg-color-twitter-white color-twitter-dark-black is-hidden scroll-v {{#styledScrollbar}}scroll-styled-v{{/styledScrollbar}} padding-t--0 padding-b--0&quot;&gt; &lt;ul class&#x3D;&quot;js-typeahead-conversation-list is-hidden&quot;&gt;&lt;/ul&gt; &lt;ul class&#x3D;&quot;js-typeahead-user-list is-hidden&quot;&gt;&lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- end Direct Message --&gt;  &lt;div class&#x3D;&quot;js-compose-message-header margin-b--9 compose-text-title&quot;&gt;&lt;/div&gt;  &lt;!-- reply to tweet --&gt; &lt;div class&#x3D;&quot;js-in-reply-to compose-reply-tweet padding-al margin-b---4 br-top--4 is-hidden&quot;&gt;&lt;/div&gt; &lt;!-- end reply to tweet --&gt;  &lt;!-- Compose box --&gt; &lt;div class&#x3D;&quot;position-rel compose-text-container padding-a--10 br--4&quot;&gt; &lt;!-- Simplified replies container --&gt; &lt;div class&#x3D;&quot;js-reply-info-container is-hidden txt-size--12 padding-b--6&quot;&gt;&lt;/div&gt;  &lt;textarea class&#x3D;&quot;js-compose-text compose-text txt-size--14 scroll-v scroll-styled-v scroll-styled-h scroll-alt padding-a--0&quot; placeholder&#x3D;&quot;{{_i}}What&#x27;s happening?{{/i}}&quot;&gt;&lt;/textarea&gt; {{&gt; compose/character_count_with_circle}} &lt;/div&gt;  &lt;!-- Media bar --&gt; &lt;div class&#x3D;&quot;js-media-added is-hidden&quot;&gt;&lt;/div&gt;  &lt;!-- Quote Tweet --&gt; &lt;div class&#x3D;&quot;js-quote-tweet-holder padding-a--10 bg-color-twitter-white margin-t---4 br-bottom--4&quot;&gt;&lt;/div&gt; &lt;!-- End compose box --&gt;  &lt;!-- Hint bar --&gt; &lt;div class&#x3D;&quot;js-compose-hint margin-vl&quot;&gt; &lt;/div&gt;  &lt;!-- safeguard checkbox --&gt; &lt;div class&#x3D;&quot;js-account-safeguard-checkbox cf margin-v--7&quot;&gt; &lt;label for&#x3D;&quot;account-safeguard-checkbox&quot; class&#x3D;&quot;pull-right txt-size-variable--12&quot;&gt;&lt;span class&#x3D;&quot;js-account-safeguard-text&quot;&gt;Ready to Tweet?&lt;/span&gt; &lt;input id&#x3D;&quot;account-safeguard-checkbox&quot; class&#x3D;&quot;on-blue&quot; type&#x3D;&quot;checkbox&quot; /&gt;&lt;/label&gt; &lt;/div&gt;  &lt;!-- Send tweet button  &amp; character count --&gt; &lt;div class&#x3D;&quot;cf margin-t--12 margin-b--30&quot;&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;div class&#x3D;&quot;js-send-button-container spinner-button-container&quot;&gt; &lt;button class&#x3D;&quot;js-send-button js-spinner-button js-show-tip Button--primary btn-extra-height padding-v--6 padding-h--12<span><span style="color: red;">&quot;  <span><span style="color: green;"> is-<span><span style="color: black;">disabled<span><span style="color: red;">&#x3D;&quot;disabled&quot;<span><span style="color: green;">&quot;&gt;<span><span style="color: black;"> {{_i}}Tweet{{/i}}&gt; &lt;/button&gt; &lt;i class&#x3D;&quot;js-compose-sending-success icon-center-16 compose-send-button-success icon icon-check is-hidden&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-media-upload-progress media-upload-progress is-hidden&quot;&gt;&lt;/span&gt; &lt;i class&#x3D;&quot;js-spinner-button-active icon-center-16 spinner-button-icon-spinner is-hidden&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;!-- Option buttons --&gt; &lt;button class&#x3D;&quot;js-add-image-button js-show-tip needsclick btn btn-on-blue full-width txt-left margin-b--12 padding-v--6 padding-h--12<span><span style="color: red;">&quot;<span><span style="color: black;"> <span><span style="color: green;">is-<span><span style="color: black;">disabled<span><span style="color: red;">&#x3D;&quot;disabled<span><span style="color: black;">&quot;&gt; &lt;i class&#x3D;&quot;Icon icon-camera txt-size--18&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-add-image-button-label label padding-ls&quot;&gt;{{_i}}Add image{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;div class&#x3D;&quot;js-scheduler&quot;&gt; &lt;button class&#x3D;&quot;js-schedule-button js-show-tip btn btn-on-blue full-width txt-left margin-b--12 padding-v--6 padding-h--12<span><span style="color: red;">&quot;<span><span style="color: black;"> <span><span style="color: green;">is-<span><span style="color: black;">disabled<span><span style="color: red;">&#x3D;&quot;disabled<span><span style="color: black;">&quot;&gt; &lt;i class&#x3D;&quot;Icon icon-schedule txt-size--18&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;js-schedule-button-label label padding-ls&quot;&gt;{{_i}}Schedule Tweet{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;span class&#x3D;&quot;js-schedule-datepicker-holder&quot;/&gt; &lt;/div&gt;  &lt;div class&#x3D;&quot;js-tweet-type-button&quot;&gt; &lt;button class&#x3D;&quot;js-tweet-button btn btn-on-blue full-width txt-left margin-b--12 padding-v--6 padding-h--12 is-hidden&quot;&gt; &lt;i class&#x3D;&quot;Icon icon-twitter-bird txt-size--18&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label padding-ls&quot;&gt;{{_i}}New Tweet{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;button class&#x3D;&quot;js-dm-button js-show-tip btn btn-on-blue full-width txt-left padding-v--6 padding-h--12 margin-b--12&quot;&gt; &lt;i class&#x3D;&quot;Icon icon-message txt-size--18&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label padding-ls&quot;&gt;{{_i}}Direct message{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;/div&gt; &lt;!-- end option buttons --&gt; &lt;/div&gt; &lt;/div&gt;  &lt;footer class&#x3D;&quot;pin-bottom margin-a--15&quot;&gt; &lt;label class&#x3D;&quot;checkbox checkbox-reversed compose-remember-state pull-right&quot;&gt; {{_i}}Stay open{{/i}} &lt;input class&#x3D;&quot;js-compose-stay-open on-blue&quot; type&#x3D;&quot;checkbox&quot;/&gt; &lt;/label&gt; &lt;/footer&gt;  &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.follow_button.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;js-action-follow btn-relation-group&quot;&gt; &lt;div class&#x3D;&quot;js-follow-button pull-left {{^isSingleAccount}}js-show-tip{{/isSingleAccount}} follow-btn margin-r--4{{^showAccountMenu}} Button--tertiary{{/showAccountMenu<span><span style="color: red;">}}&quot;<span><span style="color: green;">}}<span><span style="color: black;"> <span><span style="color: green;">is-<span><span style="color: black;">disabled<span><span style="color: red;">&#x3D;&quot;disabled<span><span style="color: black;">&quot; {{^isSingleAccount}}title&#x3D;&quot;{{_i}}From {{#account}}@{{getUsername}}{{/account}}{{/i}}&quot;{{/isSingleAccount}}&gt; &lt;button class&#x3D;&quot;btn-loader&quot;&gt; &lt;span&gt; &lt;img src&#x3D;&quot;{{#asset}}/web/assets/global/backgrounds/spinner_small_trans.gif{{/asset}}&quot; alt&#x3D;&quot;{{_i}}Loading…{{/i}}&quot;&gt; &lt;/span&gt; &lt;/button&gt;  &lt;button class&#x3D;&quot;action-text follow-text&quot;&gt; &lt;i class&#x3D;&quot;Icon icon-follow&quot;&gt;&lt;/i&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Follow{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;action-text Button--primary following-text&quot;&gt; {{_i}}Following{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;js-action-unfollow action-text unfollow-text&quot;&gt; {{_i}}Unfollow{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;action-text block-text&quot;&gt; {{_i}}Blocked{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;js-action-unblock action-text unblock-text action-text&quot;&gt; {{_i}}Unblock{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;pending-text action-text&quot;&gt; {{_i}}Pending{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;js-action-unfollow action-text cancel-req-text &quot;&gt; {{_i}}Cancel{{/i}} &lt;/button&gt; &lt;button class&#x3D;&quot;js-action-profile action-text thats-you-text&quot;&gt; {{_i}}Edit profile{{/i}} &lt;/button&gt; &lt;/div&gt; {{#showAccountMenu}} {{&gt; user_actions_btn_inv}} {{/showAccountMenu}} &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.open_column_home.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;ul class&#x3D;&quot;lst-launcher cf&quot;&gt; {{#options}} &lt;li class&#x3D;&quot;js-item-launch {{class}} {{#isDisabled}}is-disabled{{/isDisabled}} {{#isHidden}}is-hidden{{/isHidden}}&quot; data-type&#x3D;&quot;{{type}}&quot;&gt; &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;btn hover-bg-color-twitter-faint-blue<span><span style="color: red;"> <span><span style="color: black;">{{#isDisabled}}<span><span style="color: green;"> <span><span style="color: black;">js-show-tip<span><span style="color: green;"> is-disabled<span><span style="color: black;">{{/isDisabled<span><span style="color: red;">}}&quot; {{#<span><span style="color: green;">}}&quot;{{#<span><span style="color: black;">isDisabled}}<span><span style="color: red;">disabled&#x3D;&quot;disabled&quot; <span><span style="color: black;">title&#x3D;&quot;{{_i}}You have already added this column{{/i}}&quot;{{/isDisabled}}&gt; {{#isEventColumn}} &lt;img src&#x3D;&quot;{{#asset}}/web/assets/global/backgrounds/generalelection.png{{/asset}}&quot; class&#x3D;&quot;block image-icon&quot; /&gt; {{/isEventColumn}} {{^isEventColumn}} &lt;i class&#x3D;&quot;block column-type-icon icon color-twitter-blue {{columnIconClass}}&quot;&gt;&lt;/i&gt; {{/isEventColumn}} &lt;span class&#x3D;&quot;txt-size--14 color-twitter-darker-gray&quot;&gt;{{title}}&lt;/span&gt; {{#attribution}} &lt;span class&#x3D;&quot;txt-size--11 color-twitter-gray attribution block&quot;&gt;{{attribution}}&lt;/span&gt; {{/attribution}} &lt;/a&gt; &lt;/li&gt; {{/options}} &lt;/ul&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.settings/account_settings_remove_account.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">{{#isRemovable}} &lt;button {{#notRemovable}}title&#x3D;&quot;{{notRemovableMessage}}&quot;{{/notRemovable}} class&#x3D;&quot;js-account-action js-show-tip btn Button--tertiary txt-size--12<span><span style="color: red;">&quot;<span><span style="color: green;">{{#notRemovable}}<span><span style="color: black;"> <span><span style="color: green;">is-disabled{{/notRemovable}}&quot; <span><span style="color: black;">data-action&#x3D;&quot;removeCheck&quot; data-account-key&#x3D;&quot;{{accountKey<span><span style="color: red;">}}&quot;<span><span style="color: green;">}}&quot;&gt;<span><span style="color: black;"> <span><span style="color: red;">{{#notRemovable}}disabled&#x3D;&quot;disabled&quot;{{/notRemovable}}&gt; <span><span style="color: black;">&lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Leave team{{/i}}&lt;/span&gt; &lt;/button&gt;  &lt;div class&#x3D;&quot;js-account-remove-check account-remove-check cf margin-tm padding-axl bg-color-twitter-lightest-gray br--4 padding-l--20 margin-l---20&quot;&gt; &lt;div class&#x3D;&quot;account-remove-check-message padding-bxl color-twitter-darker-gray txt-size--13&quot;&gt; Leave this team? You will no longer have access to the @{{screenName}} account. &lt;/div&gt; &lt;button class&#x3D;&quot;js-account-action Button--danger pull-left&quot; data-action&#x3D;&quot;remove&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; &lt;span class&#x3D;&quot;label&quot;&gt;{{_i}}Leave{{/i}}&lt;/span&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;js-account-action cf btn pull-left margin-hm&quot; data-action&#x3D;&quot;removeCancel&quot; data-account-key&#x3D;&quot;{{accountKey}}&quot;&gt; {{_i}}Cancel{{/i}} &lt;/button&gt; &lt;/div&gt; {{/isRemovable}}<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>templates.status/tweet_detail_replybar.mustache</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">&lt;div class&#x3D;&quot;rpl&quot;&gt; &lt;textarea name&#x3D;&quot;inreplyto&quot; class&#x3D;&quot;js-reply-tweetbox scroll-v {{#styledScrollbar}}scroll-styled-v{{/styledScrollbar}} scroll-alt&quot;&gt;&lt;/textarea&gt; &lt;div class&#x3D;&quot;rpl-actions cf&quot;&gt; &lt;button class&#x3D;&quot;js-reply-popout js-show-tip Button--link <span><span style="color: red;">btn<span><span style="color: green;">padding<span><span style="color: black;">-<span><span style="color: red;">square<span><span style="color: green;">a--0<span><span style="color: black;"> <span><span style="color: green;">width--30 <span><span style="color: black;">dm-action&quot; title&#x3D;&quot;{{_i}}Popout{{/i}}&quot;&gt; &lt;i class&#x3D;&quot;icon icon-popout icon-medium&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;button class&#x3D;&quot;js-reply-add-image js-show-tip Button--link <span><span style="color: red;">btn<span><span style="color: green;">padding<span><span style="color: black;">-<span><span style="color: red;">square<span><span style="color: green;">a--0<span><span style="color: black;"> <span><span style="color: green;">width--30 <span><span style="color: black;">dm-action&quot; title&#x3D;&quot;{{_i}}Add image{{/i}}&quot;&gt; &lt;i class&#x3D;&quot;icon icon-camera icon-medium&quot;&gt;&lt;/i&gt; &lt;/button&gt; &lt;div class&#x3D;&quot;pull-right&quot;&gt; &lt;input type&#x3D;&quot;text&quot; readonly&#x3D;&quot;readonly&quot; class&#x3D;&quot;js-reply-charcount pull-left&quot;/&gt; {{#avatarURL}} &lt;img src&#x3D;&quot;{{avatarURL}}&quot; title&#x3D;&quot;@{{from}}&quot; class&#x3D;&quot;js-show-tip avatar size30 neg-margin-bl obj-left&quot;/&gt; {{/avatarURL}} &lt;button class&#x3D;&quot;Button--primary js-send&quot;&gt;{{_i}}Reply{{/i}}&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;<span></pre>
+              </div>
+            </article>
+            <article class="message is-info">
+              <div class="message-header">
+                <code>version</code>
+              </div>
+              <div class="message-body">
+                <pre><span style="color: black;">4.0.<span><span style="color: red;">180219141616<span><span style="color: green;">180221165114<span></pre>
+              </div>
+            </article>
+      </div>
+    </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Heads up!
+          </h1>
+          <h2 class="subtitle">
+            A asset dump should be available on <a href="http://assets.deckhack.io/">assets.deckhack.io</a> under the corresponding timestamp!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>DeckCheck</strong> by <a href="https://github.com/pixeldesu">pixeldesu</a>@<a href="http://github.com/DeckHackers">DeckHackers</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
